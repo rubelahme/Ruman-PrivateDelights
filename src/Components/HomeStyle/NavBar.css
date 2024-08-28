@@ -1,0 +1,28 @@
+.NavBar {
+  box-shadow: 2px 2px 2px 2px #d4d4d4;
+}
+.PrivateDelights {
+  color: rgb(88, 88, 241);
+  font-style: italic;
+  font-weight: 500 !important;
+  font-size: 24px;
+}
+.PrivateDelights:hover {
+  color: rgb(88, 88, 241) !important;
+  cursor: pointer;
+}
+.Locations {
+  color: rgb(88, 88, 241);
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .Locations {
+    display: none;
+  }
+  .faLocationDot {
+    padding: 8px;
+  }
+}

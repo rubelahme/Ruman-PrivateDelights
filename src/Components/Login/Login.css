@@ -1,0 +1,68 @@
+.login-account {
+  padding: 24px;
+  font-size: 18px;
+  background-color: rgb(88, 88, 241) !important;
+  color: #fff;
+  margin-bottom: 0 !important;
+}
+.EmailAddress {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0%;
+}
+.pos {
+  margin: 15px;
+}
+.logIconId {
+  position: relative;
+}
+.logIcon {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  cursor: pointer;
+}
+.EmailAddress:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  box-shadow: none !important;
+}
+.caseSensitive {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(128, 127, 127);
+}
+.Submit {
+  width: 35% !important;
+  display: block;
+  margin: auto;
+}
+.log {
+  border-radius: 0% !important;
+  padding: 10px;
+  background-color: rgb(88, 88, 241) !important;
+  color: #fff;
+  font-weight: 500;
+}
+.Gird_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 30px;
+}
+.Gird_item {
+  cursor: pointer;
+  color: rgb(88, 88, 241) !important;
+  font-size: 15px;
+  font-weight: 500 !important;
+}
+.confirmation {
+  background-color: #ffdd57;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.TextText {
+  cursor: pointer;
+  color: blue !important;
+}

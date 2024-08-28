@@ -1,0 +1,10 @@
+.FootEr {
+  background-color: rgb(243, 242, 242);
+}
+.Contact {
+  cursor: pointer;
+  color: rgb(88, 88, 241) !important;
+  font-size: 15px;
+  font-weight: 500 !important;
+  padding: 8px;
+}
